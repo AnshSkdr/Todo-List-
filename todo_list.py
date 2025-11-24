@@ -1,13 +1,11 @@
-#Name: ANSH SAIKHEDKAR 
-#Registration Number: 25BCE10383
-# Simple To-Do List Application with Pie Chart Visualization
+# Simple To-Do List with Pie Chart (No Emojis)
 
-tasks = []  # List to store all tasks
+tasks = []  # List to store tasks
 
 def add_task():
     task = input("Enter a new task: ")
     tasks.append({"name": task, "done": False})
-    print("✅ Task added!")
+    print("Task added!")
 
 def view_tasks():
     if not tasks:
@@ -16,47 +14,43 @@ def view_tasks():
     
     print("\nYour To-Do List:")
     for i, task in enumerate(tasks):
-        status = "✅" if task["done"] else "⬜"
+        status = "[Done]" if task["done"] else "[Pending]"
         print(f"{i+1}. {status} {task['name']}")
 
 def mark_done():
     view_tasks()
     if tasks:
-        num = int(input("\nEnter task number to mark as done: ")) - 1
-        if 0 <= num < len(tasks):
-            tasks[num]["done"] = True
-            print("🎉 Task marked as done!")
-        else:
-            print("Invalid number!")
+        try:
+            num = int(input("\nEnter task number to mark as done: ")) - 1
+            if 0 <= num < len(tasks):
+                tasks[num]["done"] = True
+                print("Task marked as done!")
+            else:
+                print("Invalid task number!")
+        except ValueError:
+            print("Please enter a valid number!")
 
 def show_pie_chart():
     if not tasks:
         print("No tasks to show in chart!")
         return
     
-    completed = 0
-    pending = 0
+    completed = sum(1 for task in tasks if task["done"])
+    pending = len(tasks) - completed
     
-    for task in tasks:
-        if task["done"]:
-            completed += 1
-        else:
-            pending += 1
-    
-    # Data for pie chart
     labels = ['Completed', 'Pending']
     sizes = [completed, pending]
-    colors = ['#90EE90', '#FFB6C1']  # light green and pink
+    colors = ['lightgreen', 'lightcoral']
     
     import matplotlib.pyplot as plt
     
-    plt.figure(figsize=(6,6))
+    plt.figure(figsize=(6, 6))
     plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
-    plt.title("My To-Do List Progress")
-    plt.axis('equal')  # Equal aspect ratio ensures pie is circular
+    plt.title("To-Do List Progress")
+    plt.axis('equal')
     plt.show()
 
-# Main menu
+# Main menu loop
 while True:
     print("\n" + "="*30)
     print("   SIMPLE TO-DO LIST")
@@ -78,7 +72,7 @@ while True:
     elif choice == "4":
         show_pie_chart()
     elif choice == "5":
-        print("Goodbye! Have a productive day! 👋")
+        print("Goodbye!")
         break
     else:
         print("Invalid choice! Please try again.")
