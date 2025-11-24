@@ -1,0 +1,26 @@
+## Problem Statement  
+Design and develop a simple yet effective **To-Do List Application** in Python that allows users to manage daily tasks and visually track their productivity through a pie chart showing completed vs pending tasks.
+
+## Scope of the Project  
+This is a **console-based mini project** developed as part of the **First-Year Python Programming coursework** at VIT Bhopal. It focuses on implementing fundamental programming concepts such as lists, dictionaries, functions, loops, user input handling, and basic data visualization using Matplotlib.
+
+## Target Users  
+- Students learning Python (especially first-year engineering students)  
+- Anyone looking for a lightweight, beginner-level task management tool  
+- VIT Bhopal faculty & peers reviewing mini-project submissions  
+
+## High-Level Features  
+| Feature                        | Description                                                  |
+|-------------------------------|--------------------------------------------------------------|
+| Add Task                      | Add new tasks to the to-do list                              |
+| View Tasks                    | Display all tasks with completion status (Done/Pending)    |
+| Mark Task as Done             | Update task status to completed                              |
+| Pie Chart Visualization       | Interactive pie chart showing % of completed & pending tasks |
+| User-Friendly Menu            | Simple numbered menu with emoji-enhanced terminal UI         |
+
+---
+**Course**: Python Programming (Semester 1)  
+**University**: VIT Bhopal (VITyarthi)  
+**Academic Year**: 2025-2026  
+
+Perfect mini-project to showcase core Python skills! 🚀
