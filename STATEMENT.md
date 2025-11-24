@@ -14,7 +14,6 @@ This is a first-year mini-project for the Python Programming course at VIT Bhopa
 - View all tasks with clear status (Done / Pending)  
 - Mark tasks as completed  
 - Generate an interactive pie chart showing progress percentage  
-- Clean, emoji-enhanced terminal interface with easy menu navigation  
 
 ---
 **Course**: Python Programming (Semester 1)  
