@@ -23,4 +23,4 @@ This is a **console-based mini project** developed as part of the **First-Year P
 **University**: VIT Bhopal (VITyarthi)  
 **Academic Year**: 2025-2026  
 
-Perfect mini-project to showcase core Python skills! 🚀
+Perfect mini-project to showcase core Python skills! 
