@@ -5,7 +5,7 @@
 
 ### Features
 -  Add new tasks  
--  View all tasks with status (✅ Done / ⬜ Pending)  
+-  View all tasks with status.
 -  Mark tasks as completed  
 -  **Pie Chart** showing completion percentage (using Matplotlib)  
 -  Clean & colorful terminal interface with emojis  
