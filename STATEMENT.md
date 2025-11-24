@@ -1,26 +1,25 @@
 ## Problem Statement  
-Design and develop a simple yet effective **To-Do List Application** in Python that allows users to manage daily tasks and visually track their productivity through a pie chart showing completed vs pending tasks.
+Develop a simple, console-based To-Do List Application in Python that helps users manage daily tasks and visually track productivity using a pie chart displaying the percentage of completed and pending tasks.
 
 ## Scope of the Project  
-This is a **console-based mini project** developed as part of the **First-Year Python Programming coursework** at VIT Bhopal. It focuses on implementing fundamental programming concepts such as lists, dictionaries, functions, loops, user input handling, and basic data visualization using Matplotlib.
+This is a first-year mini-project for the Python Programming course at VIT Bhopal. It demonstrates the use of core concepts including lists, dictionaries, functions, loops, user input handling, and basic data visualization with Matplotlib.
 
 ## Target Users  
-- Students learning Python (especially first-year engineering students)  
-- Anyone looking for a lightweight, beginner-level task management tool  
-- VIT Bhopal faculty & peers reviewing mini-project submissions  
+- First-year engineering students learning Python  
+- Anyone wanting a lightweight task management tool  
+- Faculty and peers evaluating academic mini-projects  
 
 ## High-Level Features  
-| Feature                        | Description                                                  |
-|-------------------------------|--------------------------------------------------------------|
-| Add Task                      | Add new tasks to the to-do list                              |
-| View Tasks                    | Display all tasks with completion status (Done/Pending)    |
-| Mark Task as Done             | Update task status to completed                              |
-| Pie Chart Visualization       | Interactive pie chart showing % of completed & pending tasks |
-| User-Friendly Menu            | Simple numbered menu with emoji-enhanced terminal UI         |
+- Add new tasks  
+- View all tasks with clear status (Done / Pending)  
+- Mark tasks as completed  
+- Generate an interactive pie chart showing progress percentage  
+- Clean, emoji-enhanced terminal interface with easy menu navigation  
 
 ---
 **Course**: Python Programming (Semester 1)  
 **University**: VIT Bhopal (VITyarthi)  
-**Academic Year**: 2025-2026  
+**Batch**: 2025–2029  
+**Reg. No.**: 25BCE10383  
 
-Perfect mini-project to showcase core Python skills! 
+Simple yet effective — proudly built from scratch! 🚀
